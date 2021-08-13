@@ -8,14 +8,20 @@ def cum_sum(li):
     return new_list
 
 
+def last_char(string):
+    return string[-1]
+
+
 def main():
+    """
     t = []
     for i in range(10):
         t.append(i + 1)
     print(cum_sum(t))
+    """
+    string = input('type in your word:')
+    print(last_char(string))
 
 
 if __name__ == "__main__":
     main()
-
-
