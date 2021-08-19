@@ -22,7 +22,7 @@ eng_to_cn = {
     'hundred-million': '亿'
 }
 
-num = input('Please type in an integer:')
+# num = input('Please type in an integer:')
 
 
 def inverse_num(number):
@@ -33,5 +33,7 @@ def inverse_num(number):
     return inverse_list
 
 
-inverse = inverse_num(num)
+# inverse = inverse_num(num)
 
+for key in eng_to_cn:
+    print(key, eng_to_cn[key])
